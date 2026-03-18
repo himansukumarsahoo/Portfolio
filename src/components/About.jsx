@@ -10,7 +10,7 @@ const About = () => {
         },
         {
             name:"backend",
-            skill:["Spring","Spring Boot","Spring MVC","Spring Data JPA","Spring Security","Hibernate","Microservices","REST APIs","JWT","Spring AOP"]
+            skill:["Spring","Spring Boot","Spring MVC","Hibernate","Spring Data JPA","JWT","Spring Security","REST APIs","Microservices","Spring AOP"]
         },
         {
             name:"database",
