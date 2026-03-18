@@ -1,15 +1,22 @@
 import React from 'react'
 import { FaRegFileLines } from 'react-icons/fa6'
+import { assets } from '../assets/Index'
 
 const Introduction = () => {
   return (
     <div className="introduction_box">
         <div className="textpart">
             <h2>my introduction</h2>
-            <p>I'm <strong>Himansu Kumar sahoo</strong>, a fullstack developer from odisha. I enjoy building responsive and user-friendly websits. Skilled in HTML, CSS, and JavaScript with hands-on project experience. Created a fashion e-commerce site and persional portfolio. I'm passionate about clean UI and mobile-first design. Lookingto grow in a tech-driven team and learn more everyday.</p>
+            <p>
+              I'm <strong>Himansu Kumar Sahoo</strong>, a software developer focused on <strong>Java, Spring Boot</strong>, and <strong>React</strong>.
+              I build scalable <strong>microservices</strong> and <strong>REST APIs</strong>, work with <strong>JWT authentication</strong>, and design
+              databases using <strong>MySQL</strong>. I enjoy writing clean, maintainable code and shipping user-friendly web apps.
+            </p>
         </div>
         <div className="dwnldpart">
-            <button className='dwnd-btn'><a>Download CV <FaRegFileLines/></a></button>
+            <a className="dwnd-btn" href={assets.resume} download="Himansu-resume.pdf">
+              Download CV <FaRegFileLines/>
+            </a>
         </div>
     </div>
   )

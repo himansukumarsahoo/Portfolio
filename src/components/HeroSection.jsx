@@ -12,8 +12,6 @@ const HeroSection = () => {
                 {icon:<TfiLinkedin />,
                   link:"https://www.linkedin.com/in/himansu-kumar-sahoo-350730310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
-                {icon:<IoBasketballSharp />,
-                  link:""},
                 {icon:<FaGithub />,
                   link:"https://github.com/himansukumarsahoo"}]
   return (

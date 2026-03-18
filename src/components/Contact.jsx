@@ -5,12 +5,14 @@ import Form from './Form'
 const Contact = () => {
   return (
     <>
-        <h2 className="contact" id='contact'>Get in touch</h2><br/>
-        <p className="contact-para">Do you have a project in your mind, contact me here</p>
-        <div className='contact-container'>
-            <FindMe/>
-            <Form/>
+      <section className="contact-section" id="contact" aria-label="Contact section">
+        <h2 className="contact">Get in touch</h2>
+        <p className="contact-para">Do you have a project in mind? Contact me here.</p>
+        <div className="contact-container">
+          <FindMe />
+          <Form />
         </div>
+      </section>
     </>
   )
 }

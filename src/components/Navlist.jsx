@@ -1,9 +1,13 @@
-const Navlist = ({item}) => {
+const Navlist = ({ item, isOpen = false, onNavigate }) => {
   return (
-    <div className="nav-list">
+    <div className={isOpen ? "nav-list open" : "nav-list"}>
             <ul>
                 {
-                    item.map((ele)=><li><a href={ele.link}>{ele.name}</a></li>)
+                    item.map((ele)=>(
+                      <li key={ele.link}>
+                        <a href={ele.link} onClick={onNavigate}>{ele.name}</a>
+                      </li>
+                    ))
                 }
             </ul>
     </div>

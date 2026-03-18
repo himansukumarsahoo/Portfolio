@@ -6,15 +6,17 @@ const About = () => {
     const skilldata =[
         {
             name:"frontend",
-            skill:["HTML","CSS","JavaScript","Bootstrap","ReactJs"]
+            skill:["HTML5","CSS3","React","Bootstrap","Tailwind CSS"]
         },
         {
             name:"backend",
-            skill:["JAVA","C","Python"]
-        },{
+            skill:["Spring","Spring Boot","Spring MVC","Spring Data JPA","Spring Security","Hibernate","Microservices","REST APIs","JWT","Spring AOP"]
+        },
+        {
             name:"database",
-            skill:["Oracle","MySQL"]
+            skill:["MySQL","Oracle SQL","PostgreSQL"]
         }
+        
     ]
   return (
     <>
